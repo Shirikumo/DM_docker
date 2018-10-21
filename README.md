@@ -1,6 +1,6 @@
 Docker homework
 
-	- Clone this project and enter into the directory
-	- type : 'docker-compose up --build' in your terminal
+	- Clone this project and set it as working directory in your terminal
+	- type : 'docker-compose up --build'
 
 Théo Dalleau
