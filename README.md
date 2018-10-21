@@ -6,7 +6,7 @@ Docker homework
 Apache is on port 30000
 Adminer is on port 50000
 
-the db is known as database for Adminer with :
+the db is known as 'database' for Adminer with :
 	- user : user
 	- password : password
 	
