@@ -1,0 +1,21 @@
+version: "2.0"
+services:
+  web:
+    image: php:7.2-apache
+    build:
+      context: ./
+      dockerfile: dockerfile
+    ports:
+      - '30000:80'
+    volumes:
+      - './src:/application'
+  database:
+    image: mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+  admin:
+      image: adminer
+      ports:
+        - '50000:8080'
